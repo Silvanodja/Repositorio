@@ -5,7 +5,7 @@ using System.Linq;
 namespace ConsoleApp
 {
 
-    abstract class ItemLoja
+    abstract class ItemLoja : IItemRelatorio
     {
         public long Id { get; protected set; }
         public PessoaJuridica Fornecedor { get; protected set; }
@@ -23,6 +23,7 @@ namespace ConsoleApp
             QuantidadeEstoque = quantidadeEstoque;
         }
 
+        public abstract void MostrarDescricao();
 
 
 

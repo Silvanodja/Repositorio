@@ -1,17 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
 
-    public class EnumGenero
+    class EnumGenero
     {
         
-        public Class()
-        {
-            
-        }
+        enum Genero {Ficção, Informatica, Games, Nefócios};
 
     }
 

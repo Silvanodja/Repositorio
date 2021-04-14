@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LBzKcR8ZO2yaeN1DxYH9ErgZuE2N/Nx+3Je3T5PJceGsCvsHMTEFkAlvqUPumL3oUIe9MAndrgxsas+cyvSUrg==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\silva\\Documents\\Repositorio\\Prova\\ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\silva\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

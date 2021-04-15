@@ -12,7 +12,7 @@ namespace ConsoleApp
         public string Autor { get; private set; }
         public string Editora { get; private set; }
 
-        public Livro(long id, float precoCompra, float precoVenda,int quantidadeEstoque,EnumGenero genero, string titulo, string autor, string editora) : base(id, precoCompra, precoVenda, quantidadeEstoque)
+        public Livro(long id, float precoCompra, float precoVenda, int quantidadeEstoque, EnumGenero genero, string titulo, string autor, string editora) : base(id, precoCompra, precoVenda, quantidadeEstoque)
         {
             Titulo = titulo;
             Autor = autor;

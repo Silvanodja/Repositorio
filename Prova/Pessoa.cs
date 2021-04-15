@@ -9,12 +9,18 @@ namespace ConsoleApp
 
     abstract class Pessoa
     {
-        private long Id { get; protected set; }
+        public long Id { get; protected set; }
         public string Nome { get; protected set; }
         public Endereco Endereco { get; protected set; }
         public string Email { get; protected set; }
 
-
+        public Pessoa(long id, string nome, Endereco endereco, string email)
+        {
+            Id = id;
+            Nome = nome;
+            Endereco = endereco;
+            Email = email;
+        }
     }
 
 

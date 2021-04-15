@@ -9,8 +9,8 @@ namespace ConsoleApp
 
     class EnumGenero
     {
-        
-        enum Genero {Ficção, Informatica, Games, Nefócios};
+
+        enum Genero { Ficção, Informatica, Games, Nefócios };
 
     }
 

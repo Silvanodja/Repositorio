@@ -7,12 +7,12 @@ namespace ConsoleApp
 
     class PessoaJuridica : Pessoa
     {
-        public long id { get; private set; }  
-        public string nome { get; private set; } 
-        public string cnpj { get; private set; } 
-        public endereco Endereco { get; private set; } 
-        public string email { get; private set; } 
+        public string Cnpj { get; private set; }
 
+        public PessoaJuridica(long id, string nome, Endereco endereco, string email, string cnpj) : base(id, nome, endereco, email)
+        {
+            Cnpj = cnpj;
+        }
 
     }
 

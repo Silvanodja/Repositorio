@@ -7,10 +7,12 @@ namespace ConsoleApp
 
     class Caderno : ItemLoja
     {
-        public int QuantidadeFolhas { get; protected set; }
+        public int QuantidadeFolhas { get; private set; }
+        public string Nome { get; private set; }
 
-        public Caderno(long id, float precoCompra, float precoVenda, int quantidadeEstoque, int quantidadeFolhas) : base(id, precoCompra, precoVenda, quantidadeEstoque)
+        public Caderno(long id,string nome, PessoaJuridica fornecedor, float precoCompra, float precoVenda, int quantidadeEstoque, int quantidadeFolhas) : base(id, fornecedor, precoCompra, precoVenda, quantidadeEstoque)
         {
+            Nome = nome;
             QuantidadeFolhas = quantidadeFolhas;
         }
 

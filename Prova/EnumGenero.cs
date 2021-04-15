@@ -6,13 +6,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
-
-    class EnumGenero
-    {
-
-        enum Genero { Ficção, Informatica, Games, Nefócios };
-
-    }
-
+    enum EnumGenero { Ficcao, Informatica, Games, Negocios };
 
 }

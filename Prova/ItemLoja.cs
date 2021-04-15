@@ -15,9 +15,10 @@ namespace ConsoleApp
         public int QuantidadeEstoque { get; protected set; }
 
 
-        public ItemLoja(long id, float precoCompra, float precoVenda, int quantidadeEstoque)
+        public ItemLoja(long id, PessoaJuridica fornecedor, float precoCompra, float precoVenda, int quantidadeEstoque)
         {
             Id = id;
+            Fornecedor = fornecedor;
             PrecoCompra = precoCompra;
             PrecoVenda = precoVenda;
             QuantidadeEstoque = quantidadeEstoque;

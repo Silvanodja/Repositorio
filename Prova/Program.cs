@@ -16,7 +16,7 @@ namespace ConsoleApp
 
             cadastro.AdicionarCliente(new PessoaFisica(300, "Belo Teste", new Endereco(26, "Vale das Heranças", new Bairro("Monges Unidos"), new Cidade("Belo Horizonte", new Estado("Minas Gerais", "MG"))), "Testebelo@gmail.com", "999.888.777-72", true));
 
-            cadastro.AdicionarFornecedor(fornecedor)
+            cadastro.AdicionarFornecedor(fornecedor);
 
             Livro livroUm = new Livro(100, fornecedor, 19.99f, 31.99f, 10, EnumGenero.Ficcao,"Dom Casmurro", "Machado de Assis", "Universal");
             Livro livroDois = new Livro(150, fornecedor, 24.35f, 58.99f, 10, EnumGenero.Games, "Unity: desing e  desenvolvimento de jogos", "William Pereira Alves", "Universal");
